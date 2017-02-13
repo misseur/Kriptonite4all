@@ -1,0 +1,26 @@
+{
+    "extends": "./node_modules/vitaminjs/.eslintrc",
+
+    "globals": {
+        "fetch": false,
+        "self": false,
+        "FormData": false,
+        "document": true,
+        "window": true
+    },
+
+    "rules": {
+        // Nested ternary are a really useful way to have if / elseif structure as expressions
+        // They can be very readable, if one cares to change line after each operator (? or :)
+        "no-nested-ternary": 0,
+        // You should now operator precedence.
+        "no-mixed-operators": 0,
+        // Just for personal taste...
+        "object-property-newline": 0,
+        "no-multi-spaces": [1, {
+            "exceptions": {
+                "VariableDeclarator": true
+            }
+        }]
+    }
+}
