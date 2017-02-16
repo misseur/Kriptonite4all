@@ -1,0 +1,7 @@
+geth --datadir ./node1 --networkid "100" init genesis.json 
+geth --datadir ./node2 --networkid "100" init genesis.json 
+geth --datadir ./node1/ --networkid "100" account new
+geth --datadir ./node2/ --networkid "100" account new
+geth --datadir ./node1/ --networkid "100" --port "30301" console
+geth --datadir ./node2/ --networkid "100" --port "30302" console
+
