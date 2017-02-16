@@ -1,0 +1,165 @@
+admin.nodeInfo
+admin.peers
+admin.addPeer("enode://32be06ce1bd33aba2604bd5f9f7d3e7feeb5c015f2db0b6d443f907017d342e4a7726424731407bde0f2a3baaf3948f3f4d83f158b07c83a109dd7778017dd90@[::]:30302")
+admin.peers
+con = 'contract A { uint machin = 789456123; }'
+binContract = eth.compile.solidity(con)
+binContract.toString
+./binContract
+console.log(binContract.A)
+console.log(binContract)
+console.log(binContract.toString)
+console.log(binContract.toString())
+binContract.toString()
+sourceFunc = 'contract test { function getData() { return 12356789; } }'
+binFunc = eth.compile.solidity(sourceFunc)
+sourceFunc = 'contract test { function getData() { returns(12356789); } }'
+binFunc = eth.compile.solidity(sourceFunc)
+sourceFunc = 'contract test { function getData() (returns(uint d) { return 123456789; } }'
+binFunc = eth.compile.solidity(sourceFunc)
+sourceFunc = 'contract test { function getData() returns(uint d) { return 123456789; } }'
+binFunc = eth.compile.solidity(sourceFunc)
+binFunc.
+binFunc = eth.compile.solidity(sourceFunc).test
+binFunc
+binFunc = eth.compile.solidity(sourceFunc)
+binFunc.info
+source = "contract test { function multiply(uint a) returns(uint d) { return a * 7; } }"
+contract = eth.compile.solidity(source).test
+var MyContract = eth.contract(contract.info.abiDefinition)
+binFunc.constructor
+console.log(binFunc.constructor())
+out = console.log(binFunc.constructor())
+out = binFunc.constructor()
+out = binFunc.toString
+eth.contract(binFunc)
+var MyContract = eth.contract(binFunc)
+console.log(MyContract)
+MyContract.new()
+MyContract.new();
+MyContract.getData
+MyContract.getData()
+MyContract.getData();
+eth.pendingTransactions
+admin.peers
+sourceFunc = 'contract test { function getData() returns(uint d) { return 123456789; } }'
+bin = eth.compile.solidity(sourceFunc)
+bin = eth.compile.solidity(sourceFunc).test
+console.log(bin)
+bin = eth.compile.solidity(sourceFunc)source = "contract test { function multiply(uint a) returns(uint d) { return a * 7; } }"
+source = "contract test { function multiply(uint a) returns(uint d) { return a * 7; } }"
+contract = eth.compile.solidity(source).test
+contract = eth.compile.solidity(source)
+contract.<stdin>:test
+contract.\<stdin\>:test
+contract.<stdin>:test
+web3.eth
+web3.eth.compile
+web3.eth.compile.solidity(source).test
+web3.eth.compile.solidity(source)
+bin = eth.compile.solidity(source)
+console.log(bin)
+console.log(stringify(bin))
+console.log(JSON_encode(bin))
+console.log(JSON_decode(bin))
+console.log(JSON_stringify(bin))
+console.log(JSON.stringify(bin))
+sourceFunc = 'contract test { function getData() returns(uint d) { return 123456789; } }'
+bin = eth.compile.solidity(sourceFunc)
+console.log(JSON.stringify(bin))
+var abi = '[{"constant":false,"inputs":[],"name":"getData","outputs":[{"name":"d","type":"uint256"}]'
+console.log(abi)
+new bin
+miner.start(1)
+miner.stop(1)
+miner.stop
+miner.stop(1)
+miner.stop()
+console.log(abi)
+var con = eth.contract(abi)
+console.log(con)
+var object = con.new()
+var object = con.new();
+var object = con.new({from: primaryAccount, data: contract.code}, function(error, contract) {})
+var object = con.new({from: web3.eth.account[0]}, function(error, contract) {})
+var object = con.new({from: web3.eth.accounts[0]}, function(error, contract) {})
+sourceFunc = 'contract test { function getData() returns(uint d) { return 123456789; } }'
+bin = eth.compile.solidity(sourceFunc)
+console.log(JSON.stringify(bin))
+abi = '[{"constant":false,"inputs":[],"name":"getData","outputs":[{"name":"d","type":"uint256"}]'
+console.log(abi)
+contract = eth.contract(abi)
+contract.getData()
+dataStore = contract.new({from: web3.eth.accounts[0], {}, gas: 47000}, function(e, contract) {console.log(e, contract)})
+dataStore = contract.new({from: web3.eth.accounts[0], {}, gas: 47000}, function(e, contract) {console.log(e, contract);})
+dataStore = contract.new({from: web3.eth.accounts[0], {}})
+dataStore = contract.new({from: web3.eth.accounts[0], })
+dataStore = contract.new({from: web3.eth.accounts[0], function(e, contract){}})
+dataStore = contract.new({from: web3.eth.accounts[0], function(e, contract)})
+dataStore = contract.new({from: web3.eth.accounts[0], })
+dataStore = contract.new({from: web3.eth.accounts[0], function(e, contract) {}})
+dataStore = contract.new({from: web3.eth.accounts[0], function(e, contract) {console.log(e)}})
+dataStore = contract.new({from: web3.eth.accounts[0], gas: 47000})
+dataStore = contract.new({from: web3.eth.accounts[0], gas: 47000}, function(e, contract){})
+console.log(filer)
+console.log(filter)
+console.log(JSON.stringify(filter))
+dataStore = contract.new({from: web3.eth.accounts[0], gas: 47000}, function(e, contract){})
+console.log(JSON.stringify(contract))
+miner.start(1)
+dataStore = contract.new({from: web3.eth.accounts[0], gas: 47000}, function(e, contract){})
+miner.stop()
+dataStore = contract.new({from: web3.eth.accounts[0], gas: 47000}, function(e, contract){})
+admin.peers
+admin.addPeer("enode://32be06ce1bd33aba2604bd5f9f7d3e7feeb5c015f2db0b6d443f907017d342e4a7726424731407bde0f2a3baaf3948f3f4d83f158b07c83a109dd7778017dd90@[::]:30302")
+admin.peers
+sourceContrac = 'contract Test { function getData returns(uint d) { return 123456789; } }'
+binContract = eth.compile.solidity(sourceContrac)
+sourceContrac = 'contract Test { function getData() returns(uint d) { return 123456789; } }'
+binContract = eth.compile.solidity(sourceContrac)
+binContract = eth.compile.solidity(sourceContrac).Test
+console.log(binContract)
+a = 2
+console.log(a)
+sourceContrac = 'contract bloub { function getData() returns(uint d) { return 123456789; } }'
+binContract = eth.compile.solidity(sourceContrac).bloub
+binContract = eth.compile.solidity(sourceContrac)
+binContract = web3.eth.compile.solidity(sourceContrac)
+binContract = web3.eth.compile.solidity(sourceContrac).bloub
+eth.getCompilers()
+binContract = web3.eth.compile.solidity(sourceContrac)
+ar greeterSource = 'contract mortal { address owner; function mortal() { owner = msg.sender; } function kill() { if (msg.sender == owner) suicide(owner); } } contract greeter is mortal { string greeting; function greeter(string _greeting) public { greeting = _greeting; } function greet() constant returns (string) { return greeting; } }'
+var greeterSource = 'contract mortal { address owner; function mortal() { owner = msg.sender; } function kill() { if (msg.sender == owner) suicide(owner); } } contract greeter is mortal { string greeting; function greeter(string _greeting) public { greeting = _greeting; } function greet() constant returns (string) { return greeting; } }'
+var greeterCompiled = web3.eth.compile.solidity(greeterSource)
+var _greeting = "Hello World!"
+var greeterContract = web3.eth.contract(greeterCompiled.greeter.info.abiDefinition);
+console.log(greeterCompiled)
+console.log(JSON.stringify(greeterCompiled))
+var greeterContract = web3.eth.contract(greeterCompiled.greeter.info.abiDefinition);
+var greeterContract = web3.eth.contract(greeterCompiled["<stdin>:greeter"].info.abiDefinition);
+console.log(greeterContract)
+var greeter = greeterContract.new(_greeting,{from:web3.eth.accounts[0], data: greeterCompiled.greeter.code, gas: 1000000}, function(e, contract){
+  if(!e) {
+    if(!contract.address) {
+      console.log("Contract transaction send: TransactionHash: " + contract.transactionHash + " waiting to be mined...");
+    } else {
+      console.log("Contract mined! Address: " + contract.address);
+      console.log(contract);
+    }
+  }
+})
+var greeter = greeterContract.new(_greeting,{from:web3.eth.accounts[0], data: greeterCompiled.greeter.code, gas: 1000000}, function(e, contract){if(!e) {if(!contract.address) {console.log("Contract transaction send: TransactionHash: " + contract.transactionHash + " waiting to be mined..."); } else { console.log("Contract mined! Address: " + contract.address); console.log(contract); } } })
+var greeter = greeterContract.new(_greeting,{from:web3.eth.accounts[0], data: greeterCompiled["<stdin>:greeter"].code, gas: 1000000}, function(e, contract){if(!e) {if(!contract.address) {console.log("Contract transaction send: TransactionHash: " + contract.transactionHash + " waiting to be mined..."); } else { console.log("Contract mined! Address: " + contract.address); console.log(contract); } } })
+var _greeting = "Hello World!"
+greeter.greet()
+greeter.address
+eth.getCode(greeter.address)
+greeter.exit
+admin.peers
+admin.addPeer("enode://32be06ce1bd33aba2604bd5f9f7d3e7feeb5c015f2db0b6d443f907017d342e4a7726424731407bde0f2a3baaf3948f3f4d83f158b07c83a109dd7778017dd90@[::]:30302")
+admin.peers
+sourceHello = 'contracr HW {function Hello() returns(string) {return "Yo !"; }}'
+sourceHello = 'contract HW {function Hello() returns(string) {return "Yo !"; }}'
+compiledHello = eth.compile.solidity(sourceHello)
+contractHello = eth.contract(compiledHello["<stdin>:HW"].info.abiDefnition)
+hello = contractHello.new({from: eth.accounts[0], data: ""})
