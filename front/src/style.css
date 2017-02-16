@@ -26,7 +26,8 @@ body {
 }
 
 .logo {
-	width: 215px;
+	width: auto;
+    padding-top: 20px;
 	height: 185px;
 }
 
